@@ -1,283 +1,325 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Peluquería Redu",
+  logo: "/images/logo.png",
+  tagline: "Tu estilo, tu identidad | Peluquería Redu en 08011 Barcelona",
+  description: "Peluquería Redu es tu espacio de confianza en 08011 Barcelona con 4.9 estrellas y 784 reseñas que avalan nuestra excelencia. Especializados en cortes personalizados, transformaciones de look y atención al detalle. Trabajamos solo con cita previa para garantizar un servicio rápido, profesional y sin esperas. Redu te escucha, entiende tu estilo y lo hace realidad al 100%.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#cc8865",
+    secondary: "#14171c",
+    accent: "#14171c",
+    neutral: "#fbf5f3"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "647 20 14 52",
+  whatsapp: "+34647201452",
+  whatsappMessage: "Hola, me gustaría pedir cita para peluquería.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Carrer de Casanova, 115, Eixample, 08011 Barcelona, España",
+    city: "Barcelona",
+    province: "Madrid",
+    postalCode: "08011",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=4131305106545269869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Peluquer%C3%ADa%20Redu%20%4041.3877%2C2.1555&z=16&output=embed",
+  coordinates: {
+    lat: 41.3877,
+    lng: 2.1555
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:30–14:00, 16:00–20:30"
+    },
+    {
+      days: "sábado",
+      hours: "9:30–14:00"
+    },
+    {
+      days: "domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.9,
+    count: 784,
+    url: "https://maps.google.com/?cid=4131305106545269869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Rafael Nuesi",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Un trato profesional y personalizado.\nA mi me encanta cambiar el look de pelo cada vez que voy a la peluquería y Redu siempre sabe muy bien lo que estoy buscando y lo consigue al 100%.\nSúper profesional y administra muy bien el tiempo, nunca he tenido que esperar para mi corte de pelo.\n¡Precio inmejorable!\nAplica todas la medidas contra el COVID-19.",
+        date: "Hace 4 años"
       },
       {
-        author: "Javier Padilla",
+        author: "Dnl Rcn",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Corte profesional y muy buen trato. Tengo una cicatriz en la frente y me la disimula sin problemas. Al ser solo con cita previa ayuda a que sea rápido, llegar y cortar. Hoy ha sido la 5 o 6 vez que voy.",
+        date: "Hace 5 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Alan Bordenave-oliva",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Redu es muy profesional y muy buena persona, Me lo recomendaron 2 amigos, Esta atento a todos los detalles y estoy encantado de volver allí cada vez.",
+        date: "Hace 5 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Dario G.",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
-      },
-    ],
+        text: "Redu peluquería es una tiendita de barbero pequeña, con un servicio muy rápido, profesional y económico. ¡Recomendado!",
+        date: "Hace 1 mes"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "corte-personalizado",
+      name: "Corte Personalizado",
+      description: "En Redu cada corte es único porque escuchamos lo que buscas y lo adaptamos a tu estilo personal. Trabajamos cada detalle con precisión profesional, incluso disimulando imperfecciones o cicatrices de forma natural. Perfecto para quienes aman cambiar de look constantemente o buscan un estilo definido.",
+      benefits: [
+        "Análisis personalizado de tu estilo y necesidades",
+        "Técnicas profesionales adaptadas a cada tipo de cabello",
+        "Disimulación natural de imperfecciones si es necesario"
+      ],
+      icon: "Scissors"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "transformacion-look",
+      name: "Transformación de Look",
+      description: "Si quieres un cambio radical o renovar tu imagen, esta es tu opción. Redu analiza tu personalidad, estilo de vida y preferencias para crear el look perfecto que refleje quién eres. Cada transformación es un proyecto único donde tu visión se hace realidad al 100%.",
+      benefits: [
+        "Consulta detallada para definir tu nuevo estilo",
+        "Cambios adaptados a tu personalidad y rutina",
+        "Resultados que superan expectativas"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "barberia-profesional",
+      name: "Barbería Profesional",
+      description: "Servicio de barbería con técnicas clásicas y modernas para el hombre actual. Cortes masculinos definidos, arreglo de barba y grooming completo. Atención rápida, profesional y con acabado impecable en cada visita.",
+      benefits: [
+        "Cortes masculinos con estilo y precisión",
+        "Arreglo de barba y perfilado perfecto",
+        "Ambiente profesional y servicio ágil"
+      ],
+      icon: "User"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "color-tendencias",
+      name: "Color y Tendencias",
+      description: "Coloraciones personalizadas con productos de alta gama que respetan la salud de tu cabello. Desde cambios sutiles hasta transformaciones completas, trabajamos las últimas tendencias en colorimetría para un resultado natural y duradero.",
+      benefits: [
+        "Productos premium que cuidan tu cabello",
+        "Colores adaptados a tu tono de piel",
+        "Técnicas actuales para resultados naturales"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "mechas-balayage",
+      name: "Mechas y Balayage",
+      description: "Técnicas de iluminación que aportan dimensión y movimiento a tu melena. El balayage y las mechas estratégicas crean efectos naturales que realzan tu belleza sin mantenimiento constante. Ideal para un look sofisticado y actual.",
+      benefits: [
+        "Efecto natural con bajo mantenimiento",
+        "Iluminación estratégica según tu rostro",
+        "Técnicas que respetan la estructura capilar"
+      ],
+      icon: "Crown"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "tratamientos-capilares",
+      name: "Tratamientos Capilares",
+      description: "Tratamientos reparadores e hidratantes para devolver la vida a tu cabello. Keratina, hidratación profunda y cuidados específicos según tu tipo de pelo. Productos profesionales que garantizan un cabello sano, brillante y manejable.",
+      benefits: [
+        "Recuperación de cabello dañado",
+        "Hidratación profunda y duradera",
+        "Brillo y suavidad desde la primera sesión"
+      ],
+      icon: "Heart"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "peinados-eventos",
+      name: "Peinados y Recogidos",
+      description: "Peinados profesionales para bodas, eventos y ocasiones especiales. Creamos recogidos elegantes, peinados románticos o looks modernos según el estilo de tu celebración. Acabado duradero que se mantiene perfecto durante horas.",
+      benefits: [
+        "Diseños personalizados para cada evento",
+        "Técnicas de fijación profesional",
+        "Prueba previa para garantizar tu satisfacción"
+      ],
+      icon: "Crown"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "asesoramiento-estilo",
+      name: "Asesoramiento de Estilo",
+      description: "Más que un corte, te ayudamos a encontrar tu estilo personal. Analizamos tu tipo de cabello, forma de rostro y estilo de vida para recomendarte el look que mejor te representa. Incluye consejos de mantenimiento y productos adecuados.",
+      benefits: [
+        "Análisis completo de tu imagen personal",
+        "Recomendaciones adaptadas a tu día a día",
+        "Tips profesionales para cuidado en casa"
+      ],
+      icon: "Layers"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Reserva tu Cita",
+      description: "Llama al 647 20 14 52 o contáctanos por WhatsApp. Trabajamos solo con cita previa para garantizar que no tengas que esperar y recibas atención exclusiva en tu horario."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "Redu te escucha con atención para entender exactamente qué look buscas. Analizamos tu tipo de cabello, estilo personal y necesidades específicas para definir juntos tu transformación perfecta."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Transformación Profesional",
+      description: "Aplicamos técnicas profesionales con productos de alta calidad, cuidando cada detalle. Desde el corte hasta el acabado final, trabajamos con precisión para conseguir el resultado que esperas al 100%."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Tu Nuevo Look",
+      description: "Sales con el estilo que buscabas, más consejos personalizados para mantener tu look en casa. Administramos el tiempo perfectamente para un servicio rápido sin perder calidad profesional."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valoración Excepcional",
+      description: "Con 4.9 estrellas y 784 reseñas en Google, somos uno de los salones mejor valorados de Barcelona. Nuestros clientes destacan la profesionalidad, atención personalizada y resultados que superan expectativas en cada visita.",
+      icon: "Crown"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Atención 100% Personalizada",
+      description: "Redu escucha lo que buscas y lo consigue al 100%. Cada cliente es único y cada look se diseña específicamente para ti, tu estilo de vida y tu personalidad. Estamos atentos a todos los detalles para resultados perfectos.",
+      icon: "Heart"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Sin Esperas, Solo Profesionalidad",
+      description: "Sistema de cita previa que respeta tu tiempo. Llegas, te atendemos inmediatamente y sales con tu nuevo look. Administramos el tiempo perfectamente para un servicio rápido sin sacrificar calidad profesional.",
+      icon: "Sparkles"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Precio Inmejorable",
+      description: "Calidad profesional a precios accesibles. Productos de alta gama, técnicas expertas y atención personalizada con una relación calidad-precio que nuestros clientes destacan constantemente. Excelencia sin comprometer tu presupuesto.",
+      icon: "User"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Redu",
+      role: "Estilista Profesional",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Estilistas apasionados por la belleza y las tendencias. En Peluquería Redu nos dedicamos a que cada cliente salga con el look perfecto y la confianza renovada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Peluquería Redu - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Peluquería Redu - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Peluquería Redu - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Peluquería Redu - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Peluquería Redu - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Peluquería Redu - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Peluquería Redu - Imagen 7"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Cómo puedo reservar mi cita en Peluquería Redu?",
+      answer: "En Peluquería Redu trabajamos exclusivamente con cita previa para garantizar un servicio sin esperas. Puedes reservar llamando al 647 20 14 52 o contactándonos por WhatsApp. Este sistema nos permite dedicarte el tiempo que mereces y respetar tu agenda, con un servicio rápido y profesional desde que llegas."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Qué hace especial a Peluquería Redu?",
+      answer: "Nuestra especialidad es la atención personalizada y profesional que nos ha llevado a conseguir 4.9 estrellas con 784 reseñas en Google. Redu escucha lo que buscas y lo consigue al 100%, adaptándose a cada cambio de look que desees. Además, cuidamos cada detalle, desde disimular imperfecciones hasta administrar perfectamente el tiempo para que nunca tengas que esperar."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Qué servicios ofrece Peluquería Redu?",
+      answer: "Nos especializamos en cortes personalizados para hombre y mujer, transformaciones de look completas, barbería profesional, coloración y mechas, tratamientos capilares y peinados para eventos. Cada servicio se adapta a tu estilo personal y necesidades específicas. Trabajamos con productos de alta gama y técnicas profesionales para resultados impecables."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Cuánto tiempo dura una cita en Peluquería Redu?",
+      answer: "Una de nuestras ventajas es la gestión eficiente del tiempo. Un corte estándar suele durar entre 30-45 minutos, mientras que servicios más complejos como coloración o tratamientos pueden llevar entre 1-2 horas. Al trabajar con cita previa, garantizamos que llegues, te atiendan inmediatamente y salgas con tu nuevo look sin esperas innecesarias."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Puedo consultar sobre un problema específico de mi cabello?",
+      answer: "Por supuesto. En Peluquería Redu estamos atentos a todos los detalles y necesidades específicas de cada cliente. Ya sea disimular cicatrices, trabajar con cabello difícil o encontrar el corte ideal para tu tipo de pelo, Redu analiza tu situación y te ofrece soluciones profesionales personalizadas. La consulta inicial es parte fundamental de nuestro servicio."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Qué medidas de higiene y seguridad aplican?",
+      answer: "En Peluquería Redu aplicamos rigurosamente todas las medidas de higiene y protección. Desinfectamos herramientas después de cada cliente, mantenemos espacios ventilados y seguimos protocolos de seguridad estrictos. Nuestro sistema de cita previa también ayuda a controlar el aforo y garantizar un ambiente seguro y cómodo."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Los precios son accesibles?",
+      answer: "Sí, ofrecemos precios inmejorables sin comprometer la calidad profesional del servicio. Nuestros clientes destacan constantemente la excelente relación calidad-precio. Recibes atención personalizada, productos de alta gama y resultados profesionales a precios competitivos en 08011 Barcelona."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Puedo cambiar de look cada vez que voy?",
+      answer: "¡Absolutamente! Muchos de nuestros clientes habituales aman cambiar su look constantemente y en Peluquería Redu nos encanta ese desafío. Redu tiene la experiencia y creatividad para entender qué buscas en cada visita y conseguirlo al 100%, ya sea un cambio sutil o una transformación radical. Tu estilo evoluciona y nosotros evolucionamos contigo."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Peluquería Redu",
+    defaultTitle: "Peluquería Redu | Cortes Personalizados en 08011 Barcelona",
+    defaultDescription: "Peluquería Redu en 08011 Barcelona ⭐ 4.9 estrellas con 784 reseñas. Cortes personalizados, transformación de look y barbería profesional. Cita previa 647 20 14 52",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "peluquería 08011 Barcelona",
+      "Peluquería Redu Barcelona",
+      "corte de pelo Barcelona",
+      "barbería 08011 Barcelona",
+      "peluquería profesional Barcelona",
+      "transformación look Barcelona",
+      "cortes personalizados Barcelona",
+      "peluquería con cita previa Barcelona",
+      "mejor peluquería Barcelona",
+      "estilista Barcelona",
+      "coloración cabello Barcelona",
+      "peluquería hombre mujer Barcelona"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Peluquería Redu",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Carrer de Casanova, 115, Eixample, 08011 Barcelona, España, Barcelona, Madrid"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Peluquería",
+    "en Barcelona"
+  ],
+  heroDescription: "En Peluquería Redu creamos el look que buscas con atención personalizada y profesionalidad absoluta. Ubicados en 08011 Barcelona, somos tu aliado para cada cambio de imagen, con un servicio ágil, sin esperas y a precio inmejorable. Sistema de cita previa que respeta tu tiempo.",
+  specialty: "Cortes Personalizados",
+  ctaLabel: "Tu Nuevo Look",
+  ctaHeadline: "¿Listo para tu próxima transformación?",
+  ctaDescription: "Reserva tu cita en Peluquería Redu y descubre por qué somos el salón mejor valorado de la zona. Atención personalizada, resultados profesionales y el look que siempre has querido.",
+  statsLabel: "Clientes",
+  schemaType: "HairSalon",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
@@ -300,8 +342,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
